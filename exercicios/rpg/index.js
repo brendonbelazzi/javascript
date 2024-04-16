@@ -29,9 +29,9 @@ alert(
     "\n\n" +
     nome2 +
     "\n" +
-    "\n Pontos de vida :" +
+    "\n Pontos de vida : " +
     pv +
-    "\n Pontos de defesa :" +
+    "\n Pontos de defesa : " +
     pontoDeDefesa +
     "\n Dano recebido : " +
     danoCausado
