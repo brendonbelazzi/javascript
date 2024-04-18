@@ -1,4 +1,6 @@
-let numero = prompt("Escreva o número em metros que deseja converter : ");
+let numero = parseFloat(
+  prompt("Escreva o número em metros que deseja converter : ")
+);
 let medida = prompt(
   "Escreva de forma abreviada a medida que deseja : \n milímetro (mm) \n centímetro (cm) \n decímetro (dm) \n decâmetro (dam) \n hectômetro (hm) \n quilômetro (km)"
 );
