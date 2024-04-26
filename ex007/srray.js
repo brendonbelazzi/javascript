@@ -54,3 +54,19 @@ let final = arr.slice(-4);
 
 console.log(cortar);
 console.log(final);
+
+// concat
+const sociedade = cortar.concat(final, "Ivar");
+console.log(sociedade);
+
+// Substituição dos elementos
+// splice
+const elementosRemovidos = sociedade.splice(indice, 1, "Bjorn");
+console.log(elementosRemovidos);
+console.log(sociedade);
+
+//Iterar sobre os elementos
+for (let indice = 0; indice < sociedade.length; indice++) {
+  const elemento = sociedade[indice];
+  console.log(elemento + " se encontra na posição " + indice);
+}
